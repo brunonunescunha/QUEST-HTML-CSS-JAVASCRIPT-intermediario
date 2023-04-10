@@ -1,6 +1,5 @@
-valid
-focus.
-# Formulario
+
+# Formulário
 
 ## Sobre o projeto
 
