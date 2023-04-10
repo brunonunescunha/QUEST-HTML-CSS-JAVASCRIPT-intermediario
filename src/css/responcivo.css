@@ -1,0 +1,16 @@
+@media(max-width:420px){
+    .tela-principal{
+        flex-wrap: wrap;
+        width: 400px;
+        height: 600px;
+    }
+    .tela-principal .informacoes{
+        padding: 0;
+        max-width: 320px;
+        text-align: center;
+
+    }
+    .tela-principal .formulario{
+        margin: 0;
+    }
+}

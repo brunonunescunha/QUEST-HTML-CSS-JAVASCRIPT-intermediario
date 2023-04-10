@@ -1,0 +1,95 @@
+body{
+    background-color: #E5E5E5;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tela-principal{
+    background-image: url(../imgs/bg-repeat.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 402px;
+}
+
+.tela-principal .informacoes{
+    padding-left: 60px;
+    cursor: default;
+}
+
+.tela-principal .informacoes .titulo{
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 11px;
+}
+
+.tela-principal .informacoes .texto{
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.tela-principal .formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:12px 60px 12px 50px;
+    background-color: #FFFFFF;
+    padding: 5px 21px 21px;
+    
+}
+
+.tela-principal .formulario .quadrado{
+    padding: 9px;
+    width: 299px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 8px;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    outline: none;
+}
+
+
+.tela-principal .formulario .quadrado#texto{
+    width: 299px;
+    height: 100px;
+}
+
+.tela-principal .formulario .obrigatorio{
+    
+    font-size: 0.8rem;
+    color: #f52e2e;
+    display: none;
+}
+
+.tela-principal .formulario .msn-obrigatorio{
+    margin-top: 7px;
+    margin-bottom: 11px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    cursor: default;
+}
+
+.tela-principal .formulario .btn-enviar{
+    padding: 12px 123px ;
+    border-radius: 5px;
+    border: transparent;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #3ccc87;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.tela-principal .formulario .btn-enviar:hover{
+    background-color: #288457;
+}
